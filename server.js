@@ -8,6 +8,8 @@ import multer from "multer";
 import path from "path";
 
 const app = express();
+// router added 
+let router = express;
 
 const fileStorage = multer.diskStorage({
   destination: function (req, file, cb) {
